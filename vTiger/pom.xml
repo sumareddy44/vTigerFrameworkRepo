@@ -63,7 +63,7 @@
    </dependencies>
    <profiles>
 	   <profile>
-		   <id>smoke</id>
+		   <id>RT</id>
 		    <build>
 	   <plugins>
     
@@ -73,7 +73,7 @@
         <version>3.2.3</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng-SmokeSuite.xml</suiteXmlFile>
+            <suiteXmlFile>testng-RT.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -82,7 +82,7 @@
    </build>
 	   </profile>
 	   <profile>
-		   <id>regression</id>
+		   <id>smoke</id>
 		   <build>
 	   <plugins>
     
@@ -92,7 +92,7 @@
         <version>3.2.3</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng-RegressionSuite.xml</suiteXmlFile>
+            <suiteXmlFile>testng-smoke.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
